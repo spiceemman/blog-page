@@ -1,0 +1,202 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #c9d6df;
+    padding: 10px;
+    margin: 0;
+}
+
+h1{
+	font-size: 15px;
+	color: #455d7a;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	margin: 0 0 10px 0;
+}
+
+h1 span{
+	border: 4px dashed #455d7a;
+	padding: 10px;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+.circle_image{
+	height:100px;
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+.section{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+#header{
+	background-image: url("https://pindfoundation.org/wp-content/uploads/2018/08/header-background-work-with-us.jpg");
+	background-size: cover;
+}
+
+#header img{
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: auto;
+}
+
+#header p{
+	font-size: 25px;
+	color: #e7e6e1;
+	padding: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.quote{
+	font-size: 12px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+table{
+	width: 100%;
+	font-size: 11px;
+}
+
+table, th, td{
+	border: 2px solid #cecece;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout:fixed;
+	padding: 3px;
+}
+
+.selected{
+	background-color: #455d7a;
+	color: #fff;
+	font-weight: bold;
+}
+
+li{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+progress{
+	width: 70%;
+	height: 20px;
+	color: #455d7a;
+	background: #455d7a;
+}
+
+progress::-webkit-progress-value {
+    background: #455d7a;
+} 
+
+progress::-webkit-progress-bar {
+    background: #c8d9eb;
+} 
+
+progress::-moz-progress-bar {
+	background: #455d7a;
+}
+
+progress::-moz-progress-bar {
+	background: #c8d9eb;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #455d7a;
+}
+
+form {
+    text-align: center;
+    margin-top: 0;
+	color: 455d7a;
+}
+
+.submit {
+	box-sizing: border-box;
+    background-color: #455d7a;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #c8d9eb;
+	color: black;
+}
+
+textarea {
+    height: 100px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #455d7a;
+    background-color: #c8d9eb;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -25px;
+    margin-bottom: -15px;
+}
+
+#contacts img {
+    height: 30px;
+    width: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+#contacts img:hover {
+    opacity: 0.7;
+}
+
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+@media screen and (min-width: 320px) and (max-width:361px){
+	iframe {
+		display: block;
+		margin: 0 auto;
+		border: 1px solid #455d7a;
+		width: 80vw;
+	}
+}
